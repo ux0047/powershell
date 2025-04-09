@@ -14,15 +14,6 @@
     Date: 07 March 2025
     Version: 1.0
 
-.AUTHOR
-    Binod Syangtan
-
-.VERSION
-    1.0.0
-
-.DATE
-    07 March 2025
-    
 .REQUIREMENTS
     - PowerShell 7.0 or higher (recommended)
     - Microsoft.Graph PowerShell Module
@@ -36,9 +27,7 @@
     Console table of results
     CSV file with status of users
 
-.NOTES
-    - [Any additional notes or references]
-    
+ 
 .EXAMPLE
     Run the script in PowerShell:
     .\Check-EntraIDUserStatus.ps1

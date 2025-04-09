@@ -1,3 +1,10 @@
+**## ⚠️ Caution**
+
+⚠️ Warning: This repository contains scripts that interact with live Exchange Online and other production environments.
+🧪 Always review the code thoroughly before executing any script.
+🛡️ Use test environments whenever possible.
+🧑‍💻 You are solely responsible for the outcomes — use at your own risk!
+
 # PowerShell Scripts for Exchange Online
 
 This repository contains PowerShell scripts to automate and manage tasks in **Exchange Online**, part of Microsoft 365. These scripts use the Exchange Online PowerShell module to connect, query, and administer mailboxes, groups, policies, and more.

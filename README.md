@@ -1,4 +1,4 @@
-**## ⚠️ Caution**
+## ⚠️ Caution
 
 > ⚠️ **Warning:** This repository contains scripts that interact with live Microsoft 365, Azure, Intune, and other production environments.  
 > 🧪 Always review the code thoroughly before executing any script.  

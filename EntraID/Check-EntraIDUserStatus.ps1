@@ -15,6 +15,7 @@
     Version: 1.0
 
 .REQUIREMENTS
+    - PowerShell 7.0 or higher (recommended)
     - Microsoft.Graph PowerShell Module
     - Required Scope: User.Read.All
     - CSV input file should have a column named 'UserPrincipalName'

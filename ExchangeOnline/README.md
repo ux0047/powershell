@@ -1,9 +1,9 @@
-**## ⚠️ Caution**
+## ⚠️ Caution
 
-⚠️ Warning: This repository contains scripts that interact with live Exchange Online and other production environments.
-🧪 Always review the code thoroughly before executing any script.
-🛡️ Use test environments whenever possible.
-🧑‍💻 You are solely responsible for the outcomes — use at your own risk!
+> ⚠️ **Warning:** This repository contains scripts that interact with live Exchange Online and other production environments.  
+> 🧪 Always review the code thoroughly before executing any script.   
+> 🛡️ Use test environments whenever possible.  
+> 🧑‍💻 You are solely responsible for the outcomes — use at your own risk!
 
 # PowerShell Scripts for Exchange Online
 

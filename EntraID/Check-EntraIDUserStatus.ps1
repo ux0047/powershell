@@ -46,8 +46,8 @@ Connect-MgGraph -Scopes "User.Read.All"
 $timestamp = Get-Date -Format "ddMMyyyy-HHmm"
 
 # Define file paths
-$inputPath = "C:\Temp\upncheckentraid.csv"
-$outputPath = "C:\Temp"
+$inputPath = "C:\Temp\input\upncheckentraid.csv"
+$outputPath = "C:\Temp\output"
 
 #Filename of the output file in csv format
 $outputFileName = "UserStatusReport-$timestamp.csv"

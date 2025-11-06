@@ -10,7 +10,7 @@
     The script:
     - Checks the ControlVault firmware upgrade log for:
         • A successful firmware upgrade message
-        • The expected Standard ControlVault firmware version (5.15.7.0)
+        • The expected Standard ControlVault firmware version (6.2.24.0)
     - If the firmware log does not confirm installation, it checks the ControlVault installer log for:
         • Successful installation entries
         • Successful reconfiguration entries
@@ -19,7 +19,7 @@
 .NOTES
     Author  : Binod Syangtan
     Date    : 15 August 2025
-    Version : 1.0.0
+    Version : 1.0.1
 
 .REQUIREMENTS
     - Windows 10/11
@@ -51,7 +51,7 @@ $controlvault_InstallLog    = "C:\TEMP\ControlVaultInstall.log"
 if (Test-Path $controlvault_VerUpgradelog) {
     $fwLog     = Get-Content -Path $controlvault_VerUpgradelog
     $fwSuccess = $fwLog | Select-String -Pattern 'Control Vault firmware upgrade successful'
-    $stdVer    = $fwLog | Select-String -Pattern '5.15.7.0'
+    $stdVer    = $fwLog | Select-String -Pattern '6.2.24.0'
 
     if ($fwSuccess -and $stdVer) {
         Write-Host "Detection success via firmware log."

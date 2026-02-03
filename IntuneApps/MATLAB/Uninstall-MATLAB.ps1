@@ -4,10 +4,10 @@
 .NOTES
   Version:        1.0
   Author:         BINOD SYANGTAN
-  Creation Date:  03 FEBRUARY 2026
+  Creation Date:  TUESDAY, 03 FEBRUARY 2026
 #>
 
-$uninstaller = "C:\MATLAB\R2024b\bin\win64\MathWorksProductUninstaller.exe"
+$uninstaller = "C:\MATLAB\R2025b\bin\win64\MathWorksProductUninstaller.exe"
 
 Write-Host "Starting MATLAB uninstall..."
 

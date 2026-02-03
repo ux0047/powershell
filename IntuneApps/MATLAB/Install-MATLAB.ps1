@@ -1,7 +1,7 @@
 
 <#
 .SYNOPSIS
-  Installs MATLAB R2024b (offline) using setup.exe + installer_input.txt (Intune Win32)
+  Installs MATLAB R2025b (offline) using setup.exe + installer_input.txt (Intune Win32) and can be followed for any version R20XXy.
 .DESCRIPTION
   Uses Intune-staged content ($PSScriptRoot). Runs installer silently via input file and waits for completion.
 .INPUT
@@ -11,7 +11,7 @@
 .NOTES
   Version:        1.0
   Author:         BINOD SYANGTAN
-  Creation Date:  05 NOVEMBER 2025
+  Creation Date:  TUESDAY, 03 FEBRUARY 2026
 #>
 
 $sourcePath  = $PSScriptRoot

@@ -5,6 +5,7 @@
   Version:        1.0
   Author:         BINOD SYANGTAN
   Creation Date:  TUESDAY, 03 FEBRUARY 2026
+  This works for version R2024a and Newer
 #>
 
 $uninstaller = "C:\MATLAB\R2025b\bin\win64\MathWorksProductUninstaller.exe"

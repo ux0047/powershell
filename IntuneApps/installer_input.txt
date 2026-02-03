@@ -1,0 +1,11 @@
+destinationFolder=C:\MATLAB\R2025b
+fileInstallationKey= <PUT YOUR FIK KEY HERE>
+agreeToLicense=yes
+outputFile=C:\TEMP\matlab_install.log
+improveMATLAB=no
+setFileAssoc=true
+desktopShortcut=true
+startMenuShortcut=true
+createAccelTask=true
+product.MATLAB
+product.Simulink

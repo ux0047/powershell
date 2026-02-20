@@ -14,7 +14,7 @@
 .NOTES
     Author: Binod Syangtan
     Date: 10 April 2025
-    Version: 1.0
+    Version: 1.0.1
 
 .REQUIREMENTS
     - Exchange Online PowerShell module (e.g., ExchangeOnlineManagement)
@@ -33,12 +33,12 @@
 
 .EXAMPLE
     Run the script in PowerShell:
-    .\Get-SharedMailboxPermissions.ps1
+    .\Export-SharedMailboxMemberPermissions.ps1
 #>
 
 # ========================
 # Author  : Binod Syangtan
-# Version : 1.0.0
+# Version : 1.0.1
 # Date    : 07 March 2025
 # ========================
 
